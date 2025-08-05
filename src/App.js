@@ -94,7 +94,7 @@ function App() {
     <div style={{ display: 'flex', padding: '2rem', gap: '2rem' }}>
       {/* Cadastro */}
       <div style={{ flex: 1 }}>
-        <h2>Cadastro de Tópico</h2>
+        <h2>Cadastro de Tópico GSI</h2>
         <input placeholder="Título" value={titulo} onChange={e => setTitulo(e.target.value)} />
         <textarea placeholder="Descrição" value={descricao} onChange={e => setDescricao(e.target.value)} />
 
@@ -141,5 +141,10 @@ function App() {
     </div>
   );
 }
-
+<footer>
+  <p>Copyright 2024, Meu Site</p>
+  <address>
+    <a href="mailto:email@example.com">email@example.com</a>
+  </address>
+</footer>
 export default App;
