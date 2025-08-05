@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wiki-egas/static/css/main.f0e47645.css",
-    "main.js": "/wiki-egas/static/js/main.549647e0.js",
+    "main.js": "/wiki-egas/static/js/main.1c68906a.js",
     "static/js/453.bbe7efb7.chunk.js": "/wiki-egas/static/js/453.bbe7efb7.chunk.js",
     "index.html": "/wiki-egas/index.html",
     "main.f0e47645.css.map": "/wiki-egas/static/css/main.f0e47645.css.map",
-    "main.549647e0.js.map": "/wiki-egas/static/js/main.549647e0.js.map",
+    "main.1c68906a.js.map": "/wiki-egas/static/js/main.1c68906a.js.map",
     "453.bbe7efb7.chunk.js.map": "/wiki-egas/static/js/453.bbe7efb7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0e47645.css",
-    "static/js/main.549647e0.js"
+    "static/js/main.1c68906a.js"
   ]
 }
