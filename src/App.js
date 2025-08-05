@@ -120,7 +120,7 @@ function App() {
 
       {/* Lista de Tópicos */}
       <div style={{ flex: 1 }}>
-        <h2>📄 Tópicos Cadastrados</h2>
+        <h2>📄 Tópicos Cadastrados - GSI </h2>
         <input
           placeholder="Pesquisar por título, descrição, fluxo ou fornecedor"
           value={busca}
