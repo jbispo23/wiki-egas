@@ -137,14 +137,15 @@ function App() {
             <button onClick={() => apagarTopico(topico.id)}>🗑️ Apagar</button>
           </div>
         ))}
-      </div>
-    </div>
-  );
-}
-<footer>
+         <footer>
   <p>Copyright 2024, Meu Site</p>
   <address>
     <a href="mailto:email@example.com">email@example.com</a>
   </address>
 </footer>
+      </div>
+    </div>
+    );
+}
+
 export default App;
