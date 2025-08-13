@@ -6,22 +6,18 @@ import App from "./App";
 
 export default function AppRoutes() {
   return (
-    <BrowserRouter>
-      {/* navegação mínima — opcional, mas útil */}
-      <nav style={{
-        display:"flex", gap:20, padding:"15px 21px",
-        borderBottom:"15px solid #9713c0ff", position:"sticky", top:0,
-        background:"#f4f4f9ff", zIndex:10
-      }}>
+    <BrowserRouter basename="/wiki-egas">  {/* 👈 acrescente isto */}
+      <nav style={{ display:"flex", gap:12, padding:"10px 16px", borderBottom:"1px solid #e5e7eb", position:"sticky", top:0, background:"#fff", zIndex:10 }}>
         <Link to="/">Home</Link>
-        <Link to="/">Cadastro de Tópico</Link>
-        <Link to="/">Calendário</Link>
-        <Link to="/">Controlo auditórios</Link>
+        <Link to="/topicos">Cadastro de Tópico</Link>
+        <Link to="/calendario">Calendário</Link>
+        <Link to="/auditorios">Controlo auditórios</Link>
       </nav>
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/" element={<App />} />
+        <Route path="/topicos" element={<App />} />
+        {/* ...suas outras rotas se houver */}
       </Routes>
     </BrowserRouter>
   );
